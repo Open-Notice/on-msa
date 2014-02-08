@@ -1,25 +1,25 @@
 on-msa
 ======
 
-#### Consent map project
+## Consent map project
 
 The consent map project started before the hackathon. It is a structured reference database of jurisdictional privacy laws relating to notice and consent requirements. The idea is that you can look up the consent and notice laws that apply in a given context. For instance, a web plugin could deliver a set of references to laws that apply to a user when they tick the consent box on a particular website, based on the website's jurisdiction and user location.
 
-## Crowd-sourced jurisdictional law references
+#### Crowd-sourced jurisdictional law references
 
 In order to create the map we have crowd-sourced the references for a minimum set of common notice requirements across many jurisdictions. These include the parts of a piece of legislation that require privacy policies, terms-of-service, purpose specifications, contact details and 'Do Not Track' responses.
 
 At present, we are working on inputting data for around a dozen jurisdictions. We have full information for Canada and the UK.
 
-## Consent receipt
+#### Consent receipt
 
 One application of the consent map is the 'consent receipt' tool; a means for a individual to get a receipt or token from a website which formally acknowledges a consent agreement between the two parties (e.g. the user stated that they have read and agreed to the privacy policy, and the website says they have received and acknowledged the users Do Not Track preference).
 
-## API
+#### API
 
 The map is available as static dumps in CSV, JSON, XML. It will also soon be available via a RESTful API.
 
-## Resources
+#### Resources
 
 Prior/related art:
 
@@ -29,11 +29,11 @@ Prior/related art:
 
 - The Schema.org microdata format has a entity called Schema.org/Organization, which reveals the company location. One option would be to hack schema.org to find out the company location and serve relevant consent map data on that basis.
 
-## License
+#### License
 
 This data is available under CC-BY 4.0
 
-## Creators
+#### Creators
 
 This is a project of;
 
